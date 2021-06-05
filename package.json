@@ -1,0 +1,22 @@
+{
+  "name": "leetcode_javascript",
+  "version": "1.0.0",
+  "description": "使用javascript语言",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jeffrey6052/leetcode_javascript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jeffrey6052/leetcode_javascript/issues"
+  },
+  "homepage": "https://github.com/Jeffrey6052/leetcode_javascript#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
