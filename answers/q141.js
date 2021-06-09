@@ -109,3 +109,18 @@ const test1 = function () {
 }
 
 test1()
+
+
+// 最佳答案
+const _hasCycle = function(head) {
+    let fast = head;
+    let slow = head;
+    while(fast && fast.next) {
+            fast = fast.next.next;
+            slow = slow.next;
+        if (slow === fast){
+            return true;
+        }
+    }
+    return false;
+};
